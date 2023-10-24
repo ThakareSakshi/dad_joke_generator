@@ -59,7 +59,23 @@ section{
 }
 
 
+.wrapper{
+    height:80px;
+    width: 80px;
+    border-radius: 50%;
+    border-top:6px solid rgb(245, 125, 145);
+   
+    animation:spin 1s infinite linear;
+    display: none;
+}
 
-
-
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
 
